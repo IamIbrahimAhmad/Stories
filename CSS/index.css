@@ -1,8 +1,54 @@
 body {
     background-color: black;
     color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#linked {
+    margin-left: 300px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+
+/* unvisited link */
+
+a:link {
+    color: hotpink;
+    text-decoration: none;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: hotpink;
+    text-decoration: none;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+
+
+/* selected link */
+
+a:active {
+    color: gold;
+    text-decoration: none;
 }
 
 p {
-    margin-left: 300px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Stencil Std, fantasy;
+    color: hotpink;
+}
+
+h1 {
+    text-align: center;
+    color: hotpink;
 }
