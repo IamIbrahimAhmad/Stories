@@ -5,8 +5,21 @@ body {
 }
 
 #linked {
-    margin-left: 300px;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: Stencil Std, fantasy;
+    display: block;
+    text-indent: 15px;
+    font-size: 15px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lbl {
+    font-family: Stencil Std, fantasy;
+    font-size: 20px;
+    color: gold;
 }
 
 
@@ -29,7 +42,7 @@ a:visited {
 /* mouse over link */
 
 a:hover {
-    color: hotpink;
+    color: gold;
     text-decoration: none;
 }
 
@@ -44,11 +57,22 @@ a:active {
 p {
     text-align: center;
     font-size: 15px;
-    font-family: Stencil Std, fantasy;
     color: hotpink;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 h1 {
     text-align: center;
     color: hotpink;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+#img4S {
+    border: 1px solid transparent;
+    border-color: gold;
 }
